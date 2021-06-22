@@ -20,18 +20,23 @@ pip install -r requirements.txt
 按這網站制作line bot:https://developers.line.biz/zh-hant/
 
 ![login](https://user-images.githubusercontent.com/72925954/122883848-28d86400-d370-11eb-8f1f-261f933f8108.PNG)
+
 點下Log in登錄你的line
 
 ![messageAPI](https://user-images.githubusercontent.com/72925954/122884059-56251200-d370-11eb-9843-5fad7287e3cf.PNG)
+
 之後先按下Line Developers 回到主頁後
 之後按Message API
 
 ![startIT](https://user-images.githubusercontent.com/72925954/122884199-7bb21b80-d370-11eb-8a3d-c809b39ade4a.PNG)
+
 下直住下滾動，直到找到開始使用Messaging API 
 
 ![startIT](https://user-images.githubusercontent.com/72925954/122885450-ad77b200-d371-11eb-9d4b-39cb59ddda5e.PNG)
+
 按下開始體驗。
 之後輸入基本資料
+
 ![name](https://user-images.githubusercontent.com/72925954/122885502-b9637400-d371-11eb-99fb-3c977650101e.PNG)
 ![messageInput](https://user-images.githubusercontent.com/72925954/122885510-bb2d3780-d371-11eb-9e44-c64ce506b464.PNG)
 ![cor](https://user-images.githubusercontent.com/72925954/122885577-c97b5380-d371-11eb-9de7-088a5caf1fe3.PNG)
@@ -41,6 +46,7 @@ pip install -r requirements.txt
 ### Input your Channel secret and Channel access token
 你可以在Basic settings 找到你的Channel secret
 在Messaging API 最下面
+
 ![line_channel_secret](https://user-images.githubusercontent.com/72925954/122888144-25df7280-d374-11eb-818f-09a470f7341d.PNG)
 
 channel secret
@@ -62,7 +68,9 @@ https://ngrok.com/
 ### create your line bot Server
 成功下載完後點撃ngrok.exe 行執它
 不要關閉它，因為它是一個server
+
 ![ngerok](https://user-images.githubusercontent.com/72925954/122889799-b1a5ce80-d375-11eb-877f-ea24370c3f4f.PNG)
+
 在界面輸入
 ```
 ngrok http 5000
@@ -87,6 +95,7 @@ python3 app.py
 ```
 最後在Message API 下的Webhook settings 按Edit
 貼上你剛剛在ngrok界面的網址在後面要加上callback。
+
 ![pasteWebSiteOnLine](https://user-images.githubusercontent.com/72925954/122891942-8623e380-d377-11eb-8ffc-5864ca8db309.PNG)
 
 按下Update之後按下Use webhook之後再按下Verify
@@ -111,9 +120,12 @@ python3 app.py
 
 ### Add line bot Friend and start to use it
 描QRcode加好友
+
 ![QRcode](https://user-images.githubusercontent.com/72925954/122892835-53c6b600-d378-11eb-8c93-c58cb1a70cd7.PNG)
+
 傳送@photo
 結果如下:
+
 ![30045](https://user-images.githubusercontent.com/72925954/122894204-9210a500-d379-11eb-9e95-c4b4044c671b.jpg)
 ![30050](https://user-images.githubusercontent.com/72925954/122894214-9341d200-d379-11eb-8391-dba2aeb4f6a6.jpg)
 
@@ -136,6 +148,7 @@ python3 app.py
 ## Work Detial
 
 ![Picture](https://user-images.githubusercontent.com/72925954/122915837-c8a4ea80-d38e-11eb-9baf-7664c0c64e0b.jpg)
+
 Step:
 1. User send the "@photo" message to the app.py  
 2. app.py will use the line API to get the user message and call PhotoCombine.generatePhoto() to generate the photo
@@ -151,5 +164,6 @@ Step:
 -combine and send it: Use drawer.text 把圖片與文字合在一起
 
 ## Reference
-ref: python-line-api: https://github.com/line/line-bot-sdk-python
+python-line-api: https://github.com/line/line-bot-sdk-python
+photo-text-combine: https://stackoverflow.com/questions/16373425/add-text-on-image-using-pil
 
