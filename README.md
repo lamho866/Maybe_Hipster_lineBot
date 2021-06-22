@@ -79,11 +79,11 @@ ngrok http 5000
 
 之後打開新的cmd，去到你下載這檔案的路經底下打
 ```
-pip app.py
+python app.py
 ```
 or
 ```
-pip3 app.py
+python3 app.py
 ```
 最後在Message API 下的Webhook settings 按Edit
 貼上你剛剛在ngrok界面的網址在後面要加上callback。
@@ -127,12 +127,13 @@ pip3 app.py
 ├── photo                      #文青背景圖
 ├── textStyle                  #文字樣式檔案
 ├── app.py                     #line bot程式
+├── PhotoCombine.py            #生成圖片用的
 ├── config.ini                 #line 的channel key設定檔案
 └── README.md
 
 ```
 
-## Work detial
+## Work Detial
 
 ![Picture](https://user-images.githubusercontent.com/72925954/122915837-c8a4ea80-d38e-11eb-9baf-7664c0c64e0b.jpg)
 Step:
@@ -140,7 +141,9 @@ Step:
 2. app.py will use the line API to get the user message and call PhotoCombine.generatePhoto() to generate the photo
 3. Send back the photo which generate of PhotoCombine.generatePhoto()
 4. Use line api to send back photo
-
+![generate](https://user-images.githubusercontent.com/72925954/122918924-3d2d5880-d392-11eb-896c-3ac2eaf23f7e.PNG)
+getTextArray() : take the text in TextFile/famous.txt
+getPhoto
 ## Reference
 ref: python-line-api: https://github.com/line/line-bot-sdk-python
 
