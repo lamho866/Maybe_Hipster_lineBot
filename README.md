@@ -55,8 +55,12 @@ channel access token
 
 channel_access_token = 貼上你的line bot channel access token
 channel_secret = 貼上你的line bot channel secret
+### download ngrok
+建立line bot需要下載 ngrok 用作建立server
+https://ngrok.com/
+
 ### create your line bot Server
-之後點撃ngrok.exe 行執它
+成功下載完後點撃ngrok.exe 行執它
 不要關閉它，因為它是一個server
 ![ngerok](https://user-images.githubusercontent.com/72925954/122889799-b1a5ce80-d375-11eb-877f-ea24370c3f4f.PNG)
 在界面輸入
@@ -113,5 +117,29 @@ pip3 app.py
 ![30045](https://user-images.githubusercontent.com/72925954/122894204-9210a500-d379-11eb-9e95-c4b4044c671b.jpg)
 ![30050](https://user-images.githubusercontent.com/72925954/122894214-9341d200-d379-11eb-8391-dba2aeb4f6a6.jpg)
 
+## Folder Structure Conventions
+```
+.
+├── TextFile                   #文青語錄
+├── __pycache__                
+├── out_put_photo              #文青圖合成後存的地方
+├── photo                      #文青背景圖
+├── textStyle                  #文字樣式檔案
+├── app.py                     #line bot程式
+├── config.ini                 #line 的channel key設定檔案
+└── README.md
 
+```
+
+## Work detial
+
+![Picture](https://user-images.githubusercontent.com/72925954/122915837-c8a4ea80-d38e-11eb-9baf-7664c0c64e0b.jpg)
+Step:
+1. User send the 
+2. 
+3. 
+
+## Reference
+
+## 
 
