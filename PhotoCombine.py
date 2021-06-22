@@ -29,7 +29,7 @@ def generatePhoto():
     my_image = getThePhoto()
     #Image Effect
     my_image = my_image.filter(ImageFilter.GaussianBlur(radius = 5))
-    text = textArray[randrange(8)]
+    text = textArray[randrange(25)]
     text = textNextLine(text)
     #Text position
     textSize = 150
