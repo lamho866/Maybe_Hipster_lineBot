@@ -1,0 +1,4 @@
+Flask
+Pillow
+random2
+line-bot-sdk
