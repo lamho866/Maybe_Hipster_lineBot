@@ -47,7 +47,9 @@ channel secret
 channel access token
 
 之後用Notepad打開config.ini
+
 ![configFile](https://user-images.githubusercontent.com/72925954/122888607-97b7bc00-d374-11eb-8476-98506ae1d84d.PNG)
+
 channel_access_token = 貼上你的line bot channel access token
 channel_secret = 貼上你的line bot channel secret
 ### create your line bot Server
