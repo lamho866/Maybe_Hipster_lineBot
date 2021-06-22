@@ -23,7 +23,7 @@ pip install -r requirements.txt
 點下Log in登錄你的line
 
 ![messageAPI](https://user-images.githubusercontent.com/72925954/122884059-56251200-d370-11eb-9843-5fad7287e3cf.PNG)
-之後先按下Line Develops 回到主頁後
+之後先按下Line Developers 回到主頁後
 之後按Message API
 
 ![startIT](https://user-images.githubusercontent.com/72925954/122884199-7bb21b80-d370-11eb-8a3d-c809b39ade4a.PNG)
