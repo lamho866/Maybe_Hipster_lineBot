@@ -143,7 +143,11 @@ Step:
 4. Use line api to send back photo
 ![generate](https://user-images.githubusercontent.com/72925954/122918924-3d2d5880-d392-11eb-896c-3ac2eaf23f7e.PNG)
 getTextArray() : take the text in TextFile/famous.txt
-getPhoto
+getPhoto() : take the photo in photo folder
+textNextLine() : add the lein per 7 words
+Align text center : y = (height - textSize * text.count('\n') + textSize)/2 # calcuate the text vertical position
+combine and send it: Use drawer.text 把圖片與文字合在一起
+
 ## Reference
 ref: python-line-api: https://github.com/line/line-bot-sdk-python
 
