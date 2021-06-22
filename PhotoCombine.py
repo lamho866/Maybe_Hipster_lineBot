@@ -12,7 +12,7 @@ def getTextArry(textFileName):
 
 def getThePhoto():
     #rnadrange(2) => 0,1,2
-    path = "photo/" + str(randrange(6) + 1) + '.jpg'
+    path = "photo/" + str(randrange(26) + 1) + '.jpg'
     return Image.open(path)
 
 def textNextLine(text):
