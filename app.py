@@ -49,7 +49,7 @@ def pretty_echo(event):
     if mtext == "@photo" :
         try:
             PhotoCombine.generatePhoto()
-            path = "https://4db0f60a8ec0.ngrok.io/image?r=" + str(randrange(100000))
+            path = "YourWebSite" +"/image?r=" + str(randrange(100000))
             #print(path)
             message = ImageSendMessage(original_content_url = path,preview_image_url = path)
             line_bot_api.reply_message(event.reply_token, message)
