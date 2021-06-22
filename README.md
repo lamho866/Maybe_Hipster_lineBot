@@ -35,6 +35,7 @@ pip install -r requirements.txt
 ![name](https://user-images.githubusercontent.com/72925954/122885502-b9637400-d371-11eb-99fb-3c977650101e.PNG)
 ![messageInput](https://user-images.githubusercontent.com/72925954/122885510-bb2d3780-d371-11eb-9e44-c64ce506b464.PNG)
 ![cor](https://user-images.githubusercontent.com/72925954/122885577-c97b5380-d371-11eb-9de7-088a5caf1fe3.PNG)
+
 最後接create
 你的line bot建立成功了
 ### Input your Channel secret and Channel access token
@@ -64,11 +65,14 @@ ngrok http 5000
 ```
 
 ![webSite](https://user-images.githubusercontent.com/72925954/122890205-0d705780-d376-11eb-81bb-b48e15c3f317.PNG)
+
 複製你所選取的網址
 之後用Notepad打開你的app.py
 在path貼上你的網址
+
 ![webSitePath](https://user-images.githubusercontent.com/72925954/122890757-8ec7ea00-d376-11eb-9dba-daa125bc2c04.PNG)
 ![pasteWebSitePath](https://user-images.githubusercontent.com/72925954/122890777-925b7100-d376-11eb-9441-11eb9daf2bcc.PNG)
+
 之後打開新的cmd，去到你下載這檔案的路經底下打
 ```
 pip app.py
@@ -80,7 +84,9 @@ pip3 app.py
 最後在Message API 下的Webhook settings 按Edit
 貼上你剛剛在ngrok界面的網址在後面要加上callback。
 ![pasteWebSiteOnLine](https://user-images.githubusercontent.com/72925954/122891942-8623e380-d377-11eb-8ffc-5864ca8db309.PNG)
+
 按下Update之後按下Use webhook之後再按下Verify
+
 ![webhookAble](https://user-images.githubusercontent.com/72925954/122892652-27ab3500-d378-11eb-9169-fff479638931.PNG)
 ![sccuess](https://user-images.githubusercontent.com/72925954/122892760-40b3e600-d378-11eb-9e49-d235cc7bf741.PNG)
 
@@ -89,11 +95,15 @@ pip3 app.py
 ### reply message setting
 在Messaging API 下Auto-reply messages的按Edit
 ![auto-reply](https://user-images.githubusercontent.com/72925954/122893337-d3ed1b80-d378-11eb-9d59-0360d83cca4b.PNG)
+
 之後在Auto-reply messages的按Edit
+
 ![auto-replyEdit](https://user-images.githubusercontent.com/72925954/122893507-fa12bb80-d378-11eb-979f-e250ec281c2f.PNG)
-調成以下設定
+
+調成以下設定就OK了
+
 ![replySetting](https://user-images.githubusercontent.com/72925954/122893707-26c6d300-d379-11eb-9586-344640f82b92.PNG)
-就OK了
+
 
 ### Add line bot Friend and start to use it
 描QRcode加好友
