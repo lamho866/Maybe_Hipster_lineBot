@@ -141,7 +141,9 @@ Step:
 2. app.py will use the line API to get the user message and call PhotoCombine.generatePhoto() to generate the photo
 3. Send back the photo which generate of PhotoCombine.generatePhoto()
 4. Use line api to send back photo
+
 ![generate](https://user-images.githubusercontent.com/72925954/122918924-3d2d5880-d392-11eb-896c-3ac2eaf23f7e.PNG)
+
 getTextArray() : take the text in TextFile/famous.txt
 getPhoto() : take the photo in photo folder
 textNextLine() : add the lein per 7 words
