@@ -120,7 +120,8 @@ pip3 app.py
 ## Folder Structure Conventions
 ```
 .
-├── TextFile                   #文青語錄
+├── TextFile                   #文青語錄Folder
+        └── famous.txt         #文青語錄
 ├── __pycache__                
 ├── out_put_photo              #文青圖合成後存的地方
 ├── photo                      #文青背景圖
@@ -135,11 +136,11 @@ pip3 app.py
 
 ![Picture](https://user-images.githubusercontent.com/72925954/122915837-c8a4ea80-d38e-11eb-9baf-7664c0c64e0b.jpg)
 Step:
-1. User send the 
-2. 
-3. 
+1. User send the "@photo" message to the app.py  
+2. app.py will use the line API to get the user message and call PhotoCombine.generatePhoto() to generate the photo
+3. Send back the photo which generate of PhotoCombine.generatePhoto()
+4. Use line api to send back photo
 
 ## Reference
-
-## 
+ref: python-line-api: https://github.com/line/line-bot-sdk-python
 
