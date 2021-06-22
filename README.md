@@ -41,9 +41,11 @@ pip install -r requirements.txt
 你可以在Basic settings 找到你的Channel secret
 在Messaging API 最下面
 ![line_channel_secret](https://user-images.githubusercontent.com/72925954/122888144-25df7280-d374-11eb-818f-09a470f7341d.PNG)
+
 channel secret
 
 ![channel_long_access_token](https://user-images.githubusercontent.com/72925954/122888156-27a93600-d374-11eb-965e-7f3284db2982.PNG)
+
 channel access token
 
 之後用Notepad打開config.ini
